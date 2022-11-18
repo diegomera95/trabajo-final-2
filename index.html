@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio - Tecnocomp</title>
+        <link rel="shortcut icon" type="image/png" href="favicon.ico">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+    </head>
+    <body>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-color">
+        <div class="container p-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            <span style="font-size: 22px;">Tecnocomp</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0" style="font-size: 18px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#laptops">Laptops</a></li>
+                  <li><a class="dropdown-item" href="#celulares">Smartphone</a></li>
+                  <li><a class="dropdown-item" href="#accesorios">Accesorios</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagos.html">Carrito de compra</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/portada1.png" class="d-block w-100" alt="laptops-portada">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/portada2.png" class="d-block w-100" alt="celulares-portada">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/portada3.png" class="d-block w-100" alt="accesorios-portada">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <br>
+      </div>
+      <div class="p-4 container">
+      <h1 style="text-align: center;">Encuentra los mejores productos tecnológicos en Tecnocomp</h1><br>
+      <br>
+      <h2>Novedades</h2>
+      <p>Los productos exclusivos que solo encontrarás en Tecnocomp</p>
+    </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card shadow mb-1 rounded">
+            <img src="imagenes/laptop1.jpg" class="card-img-top" alt="laptop1">
+            <div class="card-body">
+              <h5 class="card-title">Laptop Gamer Rog Strix G15 G513Ic 15.6'' Amd Ryzen 7 4000</h5><br>
+              <p class="card-text precio">S/ 4,449.00</p>
+              <p class="card-text">Stock: 4</p>
+              <p class="card-text">Código interno: 023291</p>
+              <button  id="articulo1" class="btn-1 button">Añadir</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow mb-1 rounded">
+            <img src="imagenes/laptop2.jpg" class="card-img-top" alt="laptop2">
+            <div class="card-body">
+              <h5 class="card-title">Laptop M1502IA-EJ025W AMD Ryzen™ 5 4800H Windows 11</h5><br>
+              <p class="card-text precio">S/ 2,199.00</p>
+              <p class="card-text">Stock: 6</p>
+              <p class="card-text">Código interno: 023374</p>
+              <button  id="articulo2" class="btn-1 button">Añadir</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow mb-1 rounded">
+            <img src="imagenes/laptop3.jpg" class="card-img-top" alt="laptop3">
+            <div class="card-body">
+              <h5 class="card-title">Laptop Profesional ASUS Zenbook, Q408UG, 14" HD, AMD Ryzen 5 5500U</h5><br>
+              <p class="card-text precio">S/ 4,599.00</p>
+              <p class="card-text">Stock: 1</p>
+              <p class="card-text">Código interno: 024274</p>
+              <button  id="articulo3" class="btn-1 button">Añadir</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow mb-1 rounded">
+            <img src="imagenes/laptop4.jpg" class="card-img-top" alt="laptop4">
+            <div class="card-body">
+              <h5 class="card-title">Laptop Gamer Asus Tuf F15 Fx506 15.6'' Ci5 10H 8Gb 512Ssd V4G</h5><br>
+              <p class="card-text precio">S/ 3,099.00</p>
+              <p class="card-text">Stock: 3</p>
+              <p class="card-text">Código interno: 029644</p>
+              <button  id="articulo4" class="btn-1 button">Añadir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-4 container">
+      <br>
+      <h2>Ofertas</h2>
+      <p>Los mejores precios los encontrarás en Tecnocomp</p>
+    </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card shadow mb-1 rounded">
+            <img src="imagenes/celular1.jpg" class="card-img-top" alt="celular1">
+            <div class="card-body">
+              <h5 class="card-title">Smartphone Galaxy A33 128Gb 6Gb Single Sim Negro</h5><br>
+              <p class="card-text"><s>S/ 1,499.00</s><span class="precio"> S/ 1,029.00</span></p>
+              <p class="card-text">Stock: 9</p>
+              <p class="card-text">Código interno: 094095</p>
+              <button  id="articulo9" class="btn-1 button">Añadir</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow mb-1 rounded">
+            <img src="imagenes/celular2.jpg" class="card-img-top" alt="celular2">
+            <div class="card-body">
+              <h5 class="card-title">Smartphone Galaxy A22 128Gb 4Gb Single Sim Negro</h5><br>
+              <p class="card-text"><s>S/ 1,049.00</s><span class="precio"> S/ 729.00</span></p>
+              <p class="card-text">Stock: 12</p>
+              <p class="card-text">Código interno: 098774</p>
+              <button  id="articulo10" class="btn-1 button">Añadir</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow mb-1 rounded">
+            <img src="imagenes/celular3.jpg" class="card-img-top" alt="celular3">
+            <div class="card-body">
+              <h5 class="card-title">Smartphone GALAXY A04 64Gb 4Gb Single Sim Negro</h5><br>
+              <p class="card-text"><s>S/ 799.00</s><span class="precio"> S/ 549.00</span></p>
+              <p class="card-text">Stock: 10</p>
+              <p class="card-text">Código interno: 035774</p>
+              <button  id="articulo11" class="btn-1 button">Añadir</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow mb-1 rounded">
+            <img src="imagenes/celular4.jpg" class="card-img-top" alt="celular4">
+            <div class="card-body">
+              <h5 class="card-title">Smartphone Redmi 9A-V 32Gb 2Gb Dual Sim Verde </h5><br>
+              <p class="card-text"><s>S/ 599.00</s><span class="precio"> S/ 359.00</span></p>
+              <p class="card-text">Stock: 7</p>
+              <p class="card-text">Código interno: 029484</p>
+              <button  id="articulo12" class="btn-1 button">Añadir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br> 
+    <div>
+      <img src="imagenes/entrega.jpg" class="d-block w-100" alt="entrea">
+    </div>
+    <footer class="bg-color" style="color: #fff;">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md "> <img src="logo.svg" alt="Logo" width="36" height="30" class="d-inline-block justify-content-center align-content-center">
+            <span style="font-size: 25px;">Tecnocomp</span> <small class="d-block my-3">Copyright © Tecnocomp 2022 - Todos los derechos reservados</small> </div>
+          <div class="col-6 col-md">
+            <a class="nav-link" href="index.html"><h5>Inicio</h5></a>
+            
+          </div>
+          <div class="col-6 col-md">
+            <a class="nav-link" href="productos.html"><h5>Productos</h5></a>
+            
+          </div>
+          <div class="col-6 col-md">
+            <a class="nav-link" href="pagos.html"><h5>Carrito de compra</h5></a>
+           
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>  
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio - Tecnocomp</title>
+        <link rel="shortcut icon" type="image/png" href="favicon.ico">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+    </head>
+    <body>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-color">
+        <div class="container p-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            <span style="font-size: 22px;">Tecnocomp</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0" style="font-size: 18px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#laptops">Laptops</a></li>
+                  <li><a class="dropdown-item" href="#celulares">Smartphone</a></li>
+                  <li><a class="dropdown-item" href="#accesorios">Accesorios</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagos.html">Carrito de compra</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <div class="carrito">
+      <table class="table table-hover">
+        <thead>
+          <tr class="text-dark">
+            <th scope="col">#</th>
+            <th scope="col">Productos</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          
+        </tbody>
+      </table>
+      <br><br>
+      <div class="row mx-4">
+        <div class="col">
+          <h3 class="ItemCartTotal">Total: S/ 1,229.00</h3>
+        </div>
+        <div class="col d-flex justify content-end">
+          <button class="btn btn-1">Comprar</button>
+        </div>
+      </div>
+    </div>
+      <br>
+    <footer class="bg-color" style="color: #fff;">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md "> <img src="logo.svg" alt="Logo" width="36" height="30" class="d-inline-block justify-content-center align-content-center">
+            <span style="font-size: 25px;">Tecnocomp</span> <small class="d-block my-3">Copyright © Tecnocomp 2022 - Todos los derechos reservados</small> </div>
+          <div class="col-6 col-md">
+            <a class="nav-link" href="index.html"><h5>Inicio</h5></a>
+            
+          </div>
+          <div class="col-6 col-md">
+            <a class="nav-link" href="productos.html"><h5>Productos</h5></a>
+            
+          </div>
+          <div class="col-6 col-md">
+            <a class="nav-link" href="pagos.html"><h5>Carrito de compra</h5></a>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+   <script src="js/scripts.js"></script> 
+  </body>
+</html>

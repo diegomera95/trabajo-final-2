@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h1{
+    color: #8E2DE2;
+    font-size: 35px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.sub{
+    color: #4A00E0;
+    font-size: 30px;
+}
+
+nav{
+    box-shadow: 0 0 10px 0 #8E2DE2;
+}
+
+.bg-color{
+   background: linear-gradient(to bottom right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+s{color: #4A00E0;}
+
+.precio{
+    color: #4A00E0;
+}
+
+.carrito{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.btn-1 {
+    font-weight: 500;
+    background: linear-gradient(to right, #8E2DE2,#333399);
+    border: none;
+    border-radius: 5px;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 15px 2px rgb(74, 0, 224, .3);
+}
+
+
+.btn-1:hover {
+    box-shadow: 0 0 15px 5px rgba(142, 45, 226, 0.3);
+}
+
+.btn-1:active {
+    box-shadow: 0 0 15px 5px rgba(142, 45, 226, 0.5);
+}
+
+.table__productos{
+    display: flex;
+}
+
+.table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+.table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.hide, .remove{
+    display: none;
+  }
+
+@media screen and (max-width:500px){
+    nav{
+        box-shadow: 0 0 0 0 #fff;
+    }
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
